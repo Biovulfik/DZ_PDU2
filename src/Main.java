@@ -3,18 +3,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 500;
+        int onAccount = 100;
 
-        int y = 2_000_000;
+        int replenishment = 1100;
 
         int bonus;
 
-        if (y > 1000) {
-            bonus = y / 100;
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
         } else {
             bonus = 0;
         }
-        int balance = x + y + bonus;
+        int balance = onAccount + replenishment + bonus;
         System.out.println("Итоговый баланс: " + balance);
         System.out.println("Количество бонусов: " + bonus);
 
